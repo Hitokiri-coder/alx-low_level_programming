@@ -9,7 +9,7 @@ int main(void)
 	puts("\"Programming is like building a multilingual puzzle");
 
 	/**
-	* Return nothing to main
+	 * Return nothing to mai
 	*/
 	return (0);
 }
