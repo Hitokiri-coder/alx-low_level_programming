@@ -1,13 +1,15 @@
 #include <stdio.h>
+
 /**
- * Don't try this at home
+ * is_positive - Check if a number is greater than 0
+ * @nb: The number to be checked
+ *
+ * Return: 1 if the number is positive. 0 otherwise
  */
 int main(void)
 {
-	/**
-	 * I cant't realy understand
-	 */
 	puts("\"Programming is like building a multilingual puzzle");
+
 	/**
 	 * Return nothing to main
 	 */
