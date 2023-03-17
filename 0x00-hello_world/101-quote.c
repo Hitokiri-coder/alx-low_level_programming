@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+/**
+ * main - the entry point of the program
+ * Description: the main function
+ * Return: return 1 according to the alx project
+ */
+int main(void)
+{
+	printf("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+	return (1);
+}
