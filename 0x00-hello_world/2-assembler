@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFILE -S $(echo $CFILE | grep -Eo "[^\.]+\.")s
+gcc -S $CFILE -o $(echo $CFILE | grep -Eo "[^\.]+\.")s
