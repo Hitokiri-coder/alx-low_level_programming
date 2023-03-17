@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S $CFILE -o $(echo $CFILE | grep -oE "[^\.]+\.")s
+gcc -S $CFILE -o $(echo $CFILE | grep -oE "[0-9a-z-]+\.")s
