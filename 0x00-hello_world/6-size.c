@@ -1,6 +1,9 @@
 #include <stdio.h>
 /**
-* main - the main function                            * Description: the start point of the program         * Return: returns 0                                   */
+* main - the main function
+* Description: the start point of the program
+* Return: returns 0
+*/
 int main(void)
 {
 	char a;
@@ -8,7 +11,6 @@ int main(void)
 	long int c;
 	long long int d;
 	float e;
-
 	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
 	printf("Size of an int: %lu byte(s)\n", (unsigned long)sizeof(b));
 	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(c));
