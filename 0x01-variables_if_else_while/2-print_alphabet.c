@@ -12,9 +12,9 @@ int main(void)
 	while (character <= 'z')
 	{
 		putchar(character);
-		character++;
 		if (character == 'z')
 			putchar('\n');
+		character++;
 	}
 	return (0);
 }
