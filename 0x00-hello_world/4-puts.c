@@ -2,14 +2,11 @@
 
 /**
 * main - the main function
-* description - the start point of the program
+* description: the start point of the program
+* return: returns 0
 */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-
-	/**
-	* return - return 0 for main
-	*/
 	return (0);
 }
