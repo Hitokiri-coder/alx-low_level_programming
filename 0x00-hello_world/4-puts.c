@@ -4,7 +4,12 @@
  */
 int main(void)
 {
+	/**
+	 * I cant't realy understand
+	 */
 	puts("\"Programming is like building a multilingual puzzle");
-	/* Return nothing to main */
+	/**
+	 * Return nothing to main
+	 */
 	return (0);
 }
