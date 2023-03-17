@@ -2,8 +2,8 @@
 
 /**
 * main - the main function
-* description: the start point of the program
-* return: returns 0
+* Description: the start point of the program
+* Return: returns 0
 */
 int main(void)
 {
