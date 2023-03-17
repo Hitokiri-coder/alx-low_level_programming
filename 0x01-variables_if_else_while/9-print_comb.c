@@ -13,8 +13,10 @@ int main(void)
 	{
 		putchar(num++);
 		if (num == 58)
+		{
 			putchar(44);
 			putchar(32);
+		}
 	}
 	return (0);
 }
