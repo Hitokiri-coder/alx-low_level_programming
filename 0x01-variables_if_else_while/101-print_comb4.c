@@ -17,15 +17,15 @@ int main(void)
 		putchar(num_2);
 		putchar(num_3++);
 
+		if (num_2 > 55)
+		{
+			num++;
+			num_2 = num;
+		}
 		if (num_3 > 57)
 		{
 			num_2++;
 			num_3 = num_2 +1;
-		}
-		if (num_2 > 55)
-		{
-			num++;
-			num_2 = num+1;
 		}
 		if (num != 56)
 		{
