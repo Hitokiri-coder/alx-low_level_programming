@@ -25,7 +25,7 @@ int main(void)
 		if (num_3 > 57)
 		{
 			num_2++;
-			num_3 = num_2 +1;
+			num_3 = num_2 + 1;
 		}
 		if (num != 56)
 		{
