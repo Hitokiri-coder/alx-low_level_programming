@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
  * main - the main func of the project
@@ -9,6 +10,6 @@ int main(void)
 {
 	char* msg;
 	msg = "_puchar";
-	printf("%s\n", msg);
+	_putchar(msg);
 	return (0);
 }
