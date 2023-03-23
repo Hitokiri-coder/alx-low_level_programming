@@ -1,4 +1,1 @@
-void _putchar(char* string)
-{
-	printf("%s\n", string);
-}
+int _putchar(char c);
