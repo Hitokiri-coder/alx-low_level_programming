@@ -2,6 +2,7 @@
 /**
 * print_alphabet: Always return an error.
 */
+
 void print_alphabet(void)
 {
 	char a = 'a';
