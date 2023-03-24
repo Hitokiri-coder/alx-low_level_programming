@@ -3,7 +3,7 @@
 
 /**
  * print_last_digit - prints the last digit of a given number
- * @c: contains the passed letter.
+ * @num: contains the passed number.
  * Return: returns the last digit of a given number.
  */
 
