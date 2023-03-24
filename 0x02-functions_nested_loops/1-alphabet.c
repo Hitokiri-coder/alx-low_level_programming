@@ -2,8 +2,7 @@
 #include "main.h"
 
 /**
-* print_alphabet - Always return an error.
-* @a: store a letter.
+* print_alphabet - print all the alphabet letter.
 */
 void print_alphabet(void)
 {
