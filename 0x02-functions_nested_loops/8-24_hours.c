@@ -12,7 +12,7 @@ void jack_bauer(void)
 	int c = '0';
 	int d = '0';
 
-	while (a != 2 || b != 4)
+	while (a != '2' || b != '4')
 	{
 		_putchar(a);
 		_putchar(b);
