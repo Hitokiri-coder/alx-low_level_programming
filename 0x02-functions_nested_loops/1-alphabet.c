@@ -2,7 +2,7 @@
 #include "main.h"
 
 char a = 'a';
-print_alphabet(void)
+void print_alphabet(void)
 {
         while (a <= 'z')
 	{
