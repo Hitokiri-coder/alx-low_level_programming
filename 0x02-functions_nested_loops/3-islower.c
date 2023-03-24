@@ -6,8 +6,9 @@
  */
 int _islower(int c)
 {
+	int result = 0;
+
 	if (c >= 65 && c <= 90)
-		_putchar("1");
-	else
-		_putchar("0");
+		result = 1;
+	return (result);
 }
