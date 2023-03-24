@@ -36,7 +36,7 @@ void jack_bauer(void)
 		else if (d == '9')
 		{
 			c++;
-			d = 0;
+			d = '0';
 		}
 		else
 			d++;
