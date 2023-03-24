@@ -1,7 +1,9 @@
+#include <stdio.h>
+#include "main"
+
 /**
-* intial fucking description
-*
-* print_alphabet: Always return an error.
+* print_alphabet - Always return an error.
+* @a: store a letter.
 */
 void print_alphabet(void)
 {
