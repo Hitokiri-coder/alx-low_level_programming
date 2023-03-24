@@ -1,11 +1,8 @@
-#include "main.h"
-
 /**
 * intial fucking description
 *
 * print_alphabet: Always return an error.
 */
-
 void print_alphabet(void)
 {
 	char a = 'a';
