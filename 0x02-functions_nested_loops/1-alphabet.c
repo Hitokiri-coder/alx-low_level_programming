@@ -1,9 +1,10 @@
 #include "main.h"
+
 /**
 * print_alphabet: Always return an error.
 */
 
-print_alphabet()
+void print_alphabet(void)
 {
 	char a = 'a';
 	while (a <= 'z')
@@ -12,3 +13,4 @@ print_alphabet()
 	}
 	_putchar('\n');
 }
+
