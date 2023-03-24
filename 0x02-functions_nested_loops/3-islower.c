@@ -3,6 +3,7 @@
 
 /**
  * _islower - check the lowercases
+ * @c: contains the passed letter.
  */
 int _islower(int c)
 {
