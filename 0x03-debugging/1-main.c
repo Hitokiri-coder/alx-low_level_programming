@@ -15,7 +15,6 @@ int main(void)
 
 	while (i < 10)
 	{
-		/* the problem is here */
 		putchar(i);
 	}
 
