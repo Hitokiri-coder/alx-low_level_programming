@@ -1,5 +1,5 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
 /**
  * print_numbers - to print whole nupbers from 0 to 9 followed by a new line
