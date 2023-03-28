@@ -16,6 +16,7 @@ void rev_string(char *s)
 		s[counter] = max_cpy;
 		counter++;
 	}
+	_putchar('\n');
 }
 
 /**
@@ -29,8 +30,7 @@ int _strlen(char *s)
 	{
 		if (s[counter] == '\0')
 			break;
-		else
-			counter++;
+		counter++;
 	}
 	return (counter);
 }

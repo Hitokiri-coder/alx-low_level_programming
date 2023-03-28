@@ -12,7 +12,6 @@ void _puts(char *str)
 	{
 		if (str[counter] == '\0')
 			break;
-		else
-			_putchar(str[counter++]);
+		_putchar(str[counter++]);
 	}
 }
