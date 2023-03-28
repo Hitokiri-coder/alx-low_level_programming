@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _put - to print strings (similar to puts in the standard library)
+ * _puts - to print strings (similar to puts in the standard library)
  * @str: contains the whole string.
  */
 void _puts(char *str)
