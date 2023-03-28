@@ -20,6 +20,7 @@ void print_rev(char *str)
 int _strlen(char *s)
 {
 	int counter = 0;
+
 	while (s)
 	{
 		if (s[counter] == '\0')
