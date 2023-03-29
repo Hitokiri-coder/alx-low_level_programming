@@ -2,7 +2,7 @@
 
 /**
  * rev_string - revers a string (affect the real value in the memory)
- * @str: contains the whole string.
+ * @s: contains the whole string.
  */
 void rev_string(char *s)
 {
@@ -12,20 +12,23 @@ void rev_string(char *s)
 	while (counter <= max_index / 2)
 	{
 		char max_cpy = s[max_index - counter];
+
 		s[max_index - counter] = s[counter];
 		s[counter] = max_cpy;
 		counter++;
 	}
-	_putchar('\n');
 }
 
 /**
  * _strlen - calculate the length of a given string
  * @s: fixed var that contains the passed string.
+ *
+ * Return: returns the number of chars.
  */
 int _strlen(char *s)
 {
 	int counter = 0;
+
 	while (s)
 	{
 		if (s[counter] == '\0')

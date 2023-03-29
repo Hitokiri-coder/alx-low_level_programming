@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * print_rev - to print a reversed string
- * @str: contains the whole string.
+ * puts_half - prints the half of a str followed by a new line
+ * @str: contains the passed string.
  */
-void print_rev(char *str)
+void puts_half(char *str)
 {
-	int counter = _strlen(str);
+	int index = _strlen(str) / 2;
 
-	while (counter--)
-		_putchar(str[counter]);
+	while (index < _strlen(str))
+		_putchar(str[index++]);
 	_putchar('\n');
 }
 
@@ -17,7 +17,7 @@ void print_rev(char *str)
  * _strlen - calculate the length of a given string
  * @s: fixed var that contains the passed string.
  *
- * Return: the number of given chars.
+ * Return: returns the number of the given characters
  */
 int _strlen(char *s)
 {
@@ -31,4 +31,3 @@ int _strlen(char *s)
 	}
 	return (counter);
 }
-
