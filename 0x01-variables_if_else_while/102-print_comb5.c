@@ -24,7 +24,7 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
-		if (num_2 == 8 && num_3 == 9 && num_4 == 9)
+		if (num_2 == 9 && num_3 == 9 && num_4 == 9)
 		{
 			num_1 += 1;
 			num_2 = 0;
