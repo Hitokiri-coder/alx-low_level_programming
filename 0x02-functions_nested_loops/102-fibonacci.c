@@ -15,7 +15,7 @@ int main(void)
 	while (counter < 50)
 	{
 		long int result = num_1 + num_2;
-		
+
 		printf("%ld", result);
 		num_1 = num_2;
 		num_2 = result;
