@@ -26,4 +26,5 @@ int main(void)
 			printf(", ");
 		counter += 1;
 	}
+	return (0);
 }
