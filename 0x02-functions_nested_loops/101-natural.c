@@ -10,13 +10,13 @@ int main(void)
 	int n = 0;
 	int sum = 0;
 
-	while (n * 3 < 1000)
+	while (n * 3 < 1024)
 	{
 		sum += n * 3;
 		n += 1;
 	}
 	n = 0;
-	while (n * 5 < 1000)
+	while (n * 5 < 1024)
 	{
 		if ((n * 5) % 15 != 0)
 			sum += n * 5;
