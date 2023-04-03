@@ -7,6 +7,7 @@
  * @n: bytes
  *
  * Return: the array after it is being set.
+ */
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int counter = 0;
