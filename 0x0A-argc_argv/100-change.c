@@ -6,20 +6,25 @@
  * @v: the given cents.
  * @coins: number of coins.
  * @sizeof_coins: the size of argument coins.
+ *
+ * Return: Hard to explain.
  */
 int min_coins(int v, int coins[], int sizeof_coins)
 {
 	int counter = 0;
+	int coco;
 
 	if (v < 0)
 		return (0);
 	else if (v < coins[sizeof_coins - 1])
-		return v;
-
+		return (v);
 	while (counter < sizeof_coins)
 	{
 		if (v >= coins[counter])
-			return min_coins(v - coins[counter], coins, sizeof_coins) + 1;
+		{
+			coco = coins[counter] * (v / coins[counter]);
+			return (min_coins(v - coco, coins, sizeof_coins) + v / coins[counter]);
+		}
 		counter++;
 	}
 	return (0);
@@ -41,7 +46,6 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-
 	printf("%d\n", min_coins(atoi(argv[1]), mycoins, 5));
 	return (0);
 }
