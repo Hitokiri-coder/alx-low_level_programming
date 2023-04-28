@@ -6,7 +6,7 @@
  * @size: the size of the array.
  * @c: the repeated char.
  *
- * Retrun: a pointer to the array, NULL if it fails, or size is 0.
+ * Return: a pointer to the array, NULL if it fails, or size is 0.
  */
 char *create_array(unsigned int size, char c)
 {
