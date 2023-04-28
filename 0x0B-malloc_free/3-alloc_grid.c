@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * alloc_grid - creates 2d array of ints. 
+ * alloc_grid - creates 2d array of ints
  * @width: the rows
  * @height: the columns
  *
@@ -29,6 +29,7 @@ int **alloc_grid(int width, int height)
 		while (i_2 < width)
 		{
 			if (grid == NULL)
+				free(grid);
 				return (NULL);
 			grid[i][i_2] = 0;
 			i_2++;
